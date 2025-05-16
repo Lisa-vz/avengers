@@ -1,0 +1,86 @@
+.gallary img {
+    width: 100%;
+}
+
+
+.nav {
+  padding-top: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0000;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 25px;
+
+}
+
+li {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+h1{
+  font-size: 80px;
+  color: red;
+  text-align: center;
+}
+
+h2{
+  font-size: 60px;
+  color: red;
+   text-align: center;
+}
+
+h3{
+  font-size: 40px;
+  color: red;
+}
+
+h4{
+  font-size: 20px;
+  color: red;
+}
+
+.contact{
+  display: inline-block;
+  font-size: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ff000025;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.whatsapp{
+  position: fixed;
+  top:650px;
+  left:500px;
+}
